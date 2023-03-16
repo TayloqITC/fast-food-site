@@ -150,3 +150,48 @@ body{
     font-weight: 700;
     color: #fff;
 }
+
+/* banner end */
+
+
+
+
+
+
+/* Teaser section start */
+.teaser{
+    height: 100%;
+    margin: 5rem 0;
+}
+
+.teaser-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.teaser-wrapper .teaser-box{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.teaser-wrapper .teaser-box h3{
+    margin: 10px 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.9429px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.teaser-wrapper .teaser-box h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+}
+
+/* Teaser section end */

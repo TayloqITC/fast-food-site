@@ -1,0 +1,92 @@
+
+
+
+/* media for max-width: 576px  */
+
+@media only screen and (max-width: 576px){
+
+    /* Header area */
+    .header .navbar .row{
+        margin: 0;
+    }
+
+    .header .navbar .collapse .wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .header .navbar .collapse .navbar-nav .nav-link{
+        margin: 7px 0;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25.5738px;
+        line-height: 42px;
+        color: #000000;
+    }
+    
+   
+    /* Main area */
+    /* banner section */
+    .banner-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    
+    
+    .banner-wrapper .banner-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner-wrapper .banner-img{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-top: 2rem;
+    }
+    
+
+    .banner-wrapper .banner-text .banner-black-title{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4rem; 
+        line-height: 4rem;
+        color: #000000;
+        margin-top: 2rem;  
+    }
+    
+    .banner-wrapper .banner-text .banner-green-title{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 4rem;
+        color: #90E051; 
+    }
+    
+    .banner-wrapper .banner-text .banner-paragraf{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #000000;
+        width: 80%;
+        margin: 0 auto 2rem;
+    }
+    
+    .banner-wrapper .banner-img .banner-price{
+        position: absolute;
+        top: 0;
+    }
+
+
+
+
+}

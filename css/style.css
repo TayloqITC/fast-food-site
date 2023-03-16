@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik";
+}
+
+
+
+
+
+/* =========== Header ========= */
+.header .navbar{
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.header .navbar .navbar-brand img{
+    width: 80px;
+}
+
+
+.header .navbar .collapse .navbar-nav .nav-link{
+    padding: 0 1.8rem;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.5738px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.header .navbar .collapse .navbar-nav .nav-link.active{
+    color: #90E051;
+}
+
+.header .navbar .collapse .navbar-nav .nav-link:active{
+    color: #90E051;
+}
+
+.header .navbar .collapse .nav-user-element{
+    margin: auto 1rem;
+}
+
+
+.header .navbar .collapse .wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/* ============= Main area ================ */
+
+/* Banner section */
+
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.banner-wrapper .banner-text{
+    width: 50%;
+}
+
+.banner-wrapper .banner-img{
+    width: 50%;
+}
+
+
+.banner-wrapper .banner-text .banner-black-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem; 
+    line-height: 7rem;
+    color: #000000;
+    margin-top: 6rem;  
+}
+
+.banner-wrapper .banner-text .banner-green-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 7rem;
+    color: #90E051; 
+}
+
+.banner-wrapper .banner-text .banner-paragraf{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #000000;
+    width: 80%;
+}
+
+
+.banner-wrapper .banner-text .banner-btn1{
+    width: 156px;
+    height: 60px;
+    background-color: #90E051;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.banner-wrapper .banner-text .banner-btn2{
+    width: 156px;
+    height: 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    color: #90E051;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.banner-wrapper .banner-img img{
+    width: 82%;
+}
+
+.banner-wrapper .banner-img .banner-price{
+    height: 100px;
+    width: 100px;
+    background-color: #90E051;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15%;
+}
+
+.banner-wrapper .banner-img .banner-price p{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}

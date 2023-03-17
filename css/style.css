@@ -13,6 +13,9 @@ body{
 
 
 /* =========== Header ========= */
+.header{
+    width: 100%;
+}
 .header .navbar{
     padding-top: 20px;
     background-color: #fff;
@@ -56,7 +59,16 @@ body{
 
 /* ============= Main area ================ */
 
+.main{
+    height: 100%;
+}
+
 /* Banner section */
+
+.banner{
+    width: 100%;
+    height: 100%;
+}
 
 .banner-wrapper{
     display: flex;
@@ -160,6 +172,7 @@ body{
 
 /* Teaser section start */
 .teaser{
+    width: 100%;
     height: 100%;
     margin: 5rem 0;
 }
@@ -195,3 +208,162 @@ body{
 }
 
 /* Teaser section end */
+
+
+/* Menu section start */
+
+.menu{
+    height: 100%;
+    width: 100%;
+    background: url("../fast-food-images/menu-imgs/bg-burger.png") no-repeat;
+    background-size: 25%;
+    background-position: 0 50%;
+}
+
+.menu .menu-wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #90E051;
+    box-shadow: 0px 17px 111px -22px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    padding: 25px;
+
+}
+
+.menu .menu-search{
+    
+    height: 15%;
+    /* position: relative;
+    top: 15%; */
+    margin-top: 25px;
+}
+
+.menu .menu-search .menu-form{
+    width: 250px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    margin-left: 5%;
+   
+
+}
+
+.menu .menu-search .menu-form button{
+    width: 20%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.menu .menu-search .menu-form input{
+    
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    width: 80%;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+.menu .menu-wrapper .menu-cards{
+    width: 100%;
+   
+    height: 85%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu .menu-wrapper .menu-cards .menu-card{
+    height: 273px;
+    width: 232px;
+    margin-top: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 5.84756px 36.5472px -7.30945px rgba(0, 0, 0, 0.25);
+    border-radius: 23.3902px;
+    padding: 0 22px 25px 22px;
+}
+
+
+.menu .menu-wrapper .menu-cards .menu-card .card-img{
+    position: relative;
+    top: -35px;
+    text-align: center;
+}
+
+
+.menu .menu-wrapper .menu-cards .menu-card .card-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.7873px;
+    line-height: 20px;
+    letter-spacing: -0.025em;
+    color: #000000;
+    position: relative;
+    top: -12px;
+}
+
+.menu .menu-wrapper .menu-cards .menu-card .card-text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.2047px;
+    line-height: 17px;
+    letter-spacing: -0.025em;
+
+    color: #000000;
+}
+
+.menu .menu-cards .menu-card .rating .fa-star{
+    color: #FFF500;
+    margin-right: 10px;
+}
+
+.menu .menu-cards .menu-card .price-plus{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+}
+
+.menu .menu-cards .menu-card .price-plus .price{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.5955px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #90E051;
+}
+
+.menu .menu-cards .menu-card .price-plus .price span{
+    font-size: 15.5955px;
+    font-weight: 600;
+}
+
+.menu .menu-cards .menu-card .price-plus .plus{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: #90E051;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: 0px 5px 18.1959px -1.39968px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+/* Menu section end */

@@ -99,6 +99,12 @@
     /* Teaser section end */
 
 
+    /* Menu section start */
+    .menu .menu-search{
+        display: flex;
+        justify-content: center;
+    }
+    /* Menu section end */
 
 
 }

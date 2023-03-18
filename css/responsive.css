@@ -173,4 +173,83 @@
       /* Customer review section end*/
 
 
+
+
+      
+  /* Mobile app section */
+.mobile-app{
+    height: 100%;
+    width: 100%;
+    margin: 30rem 0;
+}
+
+.mobile-wrapper{
+    height: 100%;
+    background: #90E051;
+    
+}
+
+
+.mobile-wrapper .row{
+    height: 100%;
+}
+
+.mobile-app-img{
+    position: relative;
+    margin-bottom: 15rem;
+}
+
+.mobile-app-img .mobile-sec-bg-burger-img{
+    position: absolute;
+    width: 60%;
+    top: -180px;
+}
+
+
+.mobile-app-img .iPhone12Pro-big-img{
+    position: absolute;
+    width: 50%;
+    top: -150px;
+    left: 15%;
+    z-index: 33;
+}
+
+.mobile-app-img .iPhone12Pro-sm-img{
+    position: absolute;
+    width: 40%;
+    top: -70px;
+    left: 40%;
+    z-index: 32;
+}
+
+.mobile-app-text{
+   position: relative;
+   margin-top: 10rem;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 2rem;
+}
+
+.mobile-app-text p{
+    padding-top: 10%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.7rem;
+    width: 70%;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.mobile-sec-bg-burger-img2-right{
+    position: absolute;
+    right: 0;
+    top: 70%;
+    width: 20%;
+}
+
+
+
 }

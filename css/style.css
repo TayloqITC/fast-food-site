@@ -518,6 +518,7 @@ body{
 .mobile-app{
     height: 100%;
     width: 100%;
+    margin: 15rem 0;
 }
 
 .mobile-wrapper{
@@ -525,6 +526,61 @@ body{
     background: #90E051;
     
 }
+
+.mobile-wrapper .row{
+    height: 100%;
+}
+
+.mobile-app-img{
+    position: relative;
+}
+
+.mobile-app-img .mobile-sec-bg-burger-img{
+    position: absolute;
+    width: 60%;
+    top: -180px;
+}
+
+
+.mobile-app-img .iPhone12Pro-big-img{
+    position: absolute;
+    width: 50%;
+    top: -150px;
+    left: 30%;
+    z-index: 33;
+}
+
+.mobile-app-img .iPhone12Pro-sm-img{
+    position: absolute;
+    width: 40%;
+    top: -70px;
+    left: 55%;
+    z-index: 32;
+}
+
+.mobile-app-text{
+   position: relative;
+}
+
+.mobile-app-text p{
+    padding-top: 10%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.7rem;
+    width: 70%;
+    color: #FFFFFF;
+}
+
+.mobile-sec-bg-burger-img2-right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 20%;
+}
+
+
 
 
   /* Mobile app section end */

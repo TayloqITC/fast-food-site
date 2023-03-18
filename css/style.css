@@ -723,3 +723,13 @@ input::placeholder{
 
 
 /* Subscribe end */
+
+/* Footer area start */
+.footer{
+    background-image: url(../fast-food-images/footer-bg-img.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/* Footer area end */

@@ -367,3 +367,164 @@ body{
 
 
 /* Menu section end */
+
+
+
+
+  /* Customer review section */
+.customer{
+    height: 100%;
+    width: 100%;
+
+    margin: 10rem 0;
+
+}
+
+
+.customer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+.customer-wrapper .customer-text{
+    padding-top: 10%;
+    width: 50%;
+
+}
+
+.customer-wrapper .customer-text h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60.4566px;
+    line-height: 71px;
+    color: #333333;
+}
+
+.customer-wrapper .customer-text > p{       
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1522px;
+    line-height: 30px;
+    color: #828282;
+    margin: 2rem 0;
+}
+
+.customer-wrapper .customer-name-box{
+    display: flex;
+
+}
+
+
+.customer-wrapper .customer-name-box h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.6712px;
+    line-height: 33px;
+    color: #90E051;
+}
+.customer-wrapper .customer-name-box p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8392px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.customer-wrapper .customer-name-box .left-right{
+    margin-left: 20%;
+}
+
+.customer-wrapper .customer-name-box .left-right i{
+    margin: 5px;
+    font-size: 19px;
+}
+
+.fa-arrow-left{
+    color: #0e0e0ea6;
+}
+
+
+.customer-img{
+    width: 50%;
+}
+
+
+.customer-img-right{
+    width: 100%;
+    text-align: right;
+    margin-top: 3rem;
+ }
+ 
+
+.customer-img-right img{
+   width: 80%;
+}
+
+
+
+
+
+
+.customer-img .order-now-card{
+    width: 70%;
+    padding: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 5.03805px 50.3805px rgba(0, 0, 0, 0.1);
+    border-radius: 10.6969px;
+    position: relative;
+    top: -10%;
+}
+
+.customer-img .order-now-card .order-title h2{
+    font-weight: 700;
+    font-size: 25.1902px;
+    line-height: 35px;
+}
+
+
+.customer-img .order-now-card .order-title p{
+    font-weight: 700;
+    font-size: 20.1522px;
+    line-height: 30px;
+}
+
+.customer-img .order-now-card .stars{
+    color:#90E051;
+    font-size: large;
+}
+
+.customer-img .order-now-card > p
+{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1522px;
+    line-height: 30px;
+    color: #828282;
+    margin-top: 5px;
+}
+
+  /* Customer review section end*/
+
+
+
+  /* Mobile app section */
+.mobile-app{
+    height: 100%;
+    width: 100%;
+}
+
+.mobile-wrapper{
+    height: 370px;
+    background: #90E051;
+    
+}
+
+
+  /* Mobile app section end */

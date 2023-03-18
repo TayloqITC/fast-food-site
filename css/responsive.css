@@ -180,7 +180,7 @@
 .mobile-app{
     height: 100%;
     width: 100%;
-    margin: 30rem 0;
+    margin: 30rem 0 5rem 0;
 }
 
 .mobile-wrapper{
@@ -249,7 +249,74 @@
     top: 70%;
     width: 20%;
 }
+/* mobile app sec end */
 
+
+
+
+/* About us section start */
+
+.about-us{
+    height: 100%;
+    margin: 3rem 0 10rem 0;
+}
+.about-text-box{
+    background: #FFFFFF;
+    box-shadow: 0px 6.10138px 61.0138px rgba(0, 0, 0, 0.1);
+    border-radius: 12.9546px;
+    width: 90%;
+    position: static;
+    margin: 0 auto;
+    left: 150px;
+    top: 200px;
+    padding: 25px;
+}
+
+
+.about-text-box h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32.2598px;
+    line-height: 58px;
+    color: #000000;
+}
+
+
+
+.about-text-box p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 41px;
+    color: #828282;
+}
+
+.about-text-box img{
+    position: absolute;
+    top: -70px;
+    left: -45px;
+    width: 25%;
+
+}
+
+.about-us-img{
+    
+}
+
+
+.about-us-img .about-us-right-img{
+    width: 100%;
+}
+
+.about-us-img .about-us-right-img2{
+    width: 22%;
+    position: relative;
+    left: 70%;
+    top: -7%
+}
+/* About us section end */
 
 
 }
